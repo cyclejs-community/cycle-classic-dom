@@ -1,6 +1,3 @@
-import { div, VNode } from "@cycle/dom";
-import { Stream } from "xstream";
-
 /**
  * cycle-classic-dom
  * -------------------
@@ -11,9 +8,10 @@ import { Stream } from "xstream";
  * to an element and manipulating the DOM directly.
  *
  * `npm install cycle-classic-dom`
- *
- * API:
  */
+
+import { div, VNode } from "@cycle/dom";
+import { Stream } from "xstream";
 
 export type Constructor = (el: HTMLElement) => void;
 
