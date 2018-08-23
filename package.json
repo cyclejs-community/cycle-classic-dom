@@ -1,13 +1,14 @@
 {
   "name": "cycle-classic-dom",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "lib/readme.js",
   "types": "lib/readme.d.ts",
   "scripts": {
     "start": "cd example && budo index.ts:bundle.js --live -- -p tsify",
     "lib": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run lib"
   },
   "keywords": [],
   "author": "",
