@@ -1,0 +1,28 @@
+{
+  "name": "cycle-classic-dom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/readme.js",
+  "types": "lib/readme.d.ts",
+  "scripts": {
+    "start": "cd example && budo index.ts:bundle.js --live -- -p tsify",
+    "lib": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@cycle/dom": "*",
+    "xstream": "*"
+  },
+  "devDependencies": {
+    "@cycle/dom": "^21.0.0",
+    "@cycle/run": "^4.4.0",
+    "typescript": "~2.8.0",
+    "xstream": "^11.7.0",
+    "xterm": "^3.6.0",
+    "budo": "^11.3.2",
+    "tsify": "^4.0.0"
+  }
+}
